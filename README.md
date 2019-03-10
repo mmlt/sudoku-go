@@ -4,7 +4,7 @@ Sudoku solver in GO
 How it works:
 
 First step is creating a NewSudoku, this gets you a grid of 9 by 9 cells. 
-Each cell reference 3 sets (column, row, square) of possible numbers.
+Each cell references 3 sets (column, row, square) of possible numbers.
 Initially all sets contain the numbers 1..9 (the search space)
 
 Next a puzzle is loaded. 
